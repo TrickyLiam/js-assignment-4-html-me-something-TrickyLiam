@@ -7,17 +7,24 @@ body {
   text-align: center;
 }
 
-#home-title .nav ul li{
+#home-title .nav a{
   list-style: none;
   display: inline-block;
   text-align: center;
-  color: aqua;
+  text-decoration: none;
+  color: #bb86fc;
+}
+#home-title .nav a:hover{
+  color: #03dac5;
 }
 
 
 
 #part-1, #part-2, #part-3 {
+    height: 500px;
+    width: auto;
     margin: 20px;
+    padding: 20px;
 }
 
 #part-1{
