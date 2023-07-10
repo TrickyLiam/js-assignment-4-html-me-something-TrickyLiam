@@ -1,1 +1,58 @@
-/* Write your CSS here! */
+body {
+    background-color: #121212;
+    color: white;
+}
+
+#home-title h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 20px 0px 20px;
+    margin: 0px;
+    width: 50%; 
+}
+
+#home-title p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    width: 50%;
+}
+
+h1 {
+    
+}
+
+#part-1, #part-2, #part-3 {
+    margin: 20px;
+}
+
+#part-1 img[src="vybin logo.png"] {
+    float: right;
+    width: 200px; 
+    height: auto; 
+    margin: 10px 0; 
+  }
+  
+  
+  #part-2 img[src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"] {
+    width: 300px; 
+    height: auto; 
+    margin: 10px 0; 
+  }
+  
+  
+  #part-3 img[src="lazy lifter.png"] {
+    width: 150px; 
+    height: auto; 
+    margin: 10px 0; 
+  }
+  
+  
+  #part-3 img[src="32GI jungle blues 1.png"] {
+    width: 250px; 
+    height: auto; 
+    margin: 10px 0; 
+  }
