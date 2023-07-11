@@ -3,11 +3,11 @@ body {
     color: white;
 }
 
-#home-title {
+.home-title {
   text-align: center;
 }
 
-#home-title .nav a{
+.home-title .nav a{
   list-style: none;
   display: inline-block;
   text-align: center;
@@ -15,63 +15,63 @@ body {
   color: #bb86fc;
   margin: 0px 20px 0px 20px;
 }
-#home-title .nav a:hover{
+
+.home-title .nav a:hover{
   color: #03dac5;
 }
 
 
-
-#part-1, #part-2, #part-3 {
+.section.programming, 
+.section.chicken, 
+.section.hobbies {
     height: 500px;
     width: auto;
     margin: 20px;
     padding: 20px;
 }
 
-#part-1{
+.section.programming{
   text-align: left;
   width: 700px;
+  color: blue;
 }
 
-#part-2 {
-  text-align: end;
-}
-
-#part-2 .container {
+#chicken {
   text-align: right;
+  color: blue;
 }
 
-#part-3 .powerlifting {
+.section.hobbies .powerlifting {
   text-align: left;
 }
   
-#part-3 .gaming {
+.section.hobbies .gaming {
     text-align: right;
 }
   
-#part-3 .misc {
+.section.hobbies .misc {
   text-align: left;
 } 
 
-#part-1 img[src="vybin logo.png"] {
+.section.programming img[src="vybin logo.png"] {
   width: 200px; 
   height: auto; 
 }
     
     
-#part-2 img[src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"] {
+.section.chicken img[src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"] {
   width: 300px; 
   height: auto;  
 }
     
     
-#part-3 img[src="lazy lifter.png"] {
+.section.hobbies img[src="lazy lifter.png"] {
   width: 150px; 
   height: auto; 
 }
     
     
-#part-3 img[src="32GI jungle blues 1.png"] {
+.section.hobbies img[src="32GI jungle blues 1.png"] {
   width: 250px; 
   height: auto; 
-}
+} 
