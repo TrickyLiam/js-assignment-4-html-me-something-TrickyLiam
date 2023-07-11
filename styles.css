@@ -13,6 +13,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: #bb86fc;
+  margin: 0px 20px 0px 20px;
 }
 #home-title .nav a:hover{
   color: #03dac5;
