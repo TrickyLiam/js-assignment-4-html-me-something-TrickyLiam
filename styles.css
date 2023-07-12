@@ -1,77 +1,50 @@
-body {
-    background-color: #242323;
-    color: white;
+html {
+  box-sizing: border-box;
+  background-color: #121212;
+  color: white;
 }
 
 .home-title {
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+.card {
+  margin: auto;
   text-align: center;
+  padding: 10%;
 }
 
 .home-title .nav a{
   list-style: none;
   display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #bb86fc;
+  border-radius: 15px;
   text-align: center;
-  text-decoration: none;
-  color: #bb86fc;
-  margin: 0px 20px 0px 20px;
+  width: 75%;
 }
 
-.home-title .nav a:hover{
-  color: #03dac5;
+.button:hover {
+  opacity: 50%;
 }
 
-
-.section.programming, 
-.section.chicken, 
-.section.hobbies {
-    height: 500px;
-    width: auto;
-    margin: 20px;
-    padding: 20px;
-}
-
-.section.programming{
-  text-align: left;
-  width: 700px;
-  color: blue;
-}
-
-#chicken {
-  text-align: right;
-  color: blue;
-}
-
-.section.hobbies .powerlifting {
-  text-align: left;
-}
-  
-.section.hobbies .gaming {
-    text-align: right;
-}
-  
-.section.hobbies .misc {
-  text-align: left;
-} 
-
-.section.programming img[src="vybin logo.png"] {
-  width: 200px; 
-  height: auto; 
-}
-    
-    
-.section.chicken img[src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"] {
-  width: 300px; 
-  height: auto;  
-}
-    
-    
-.section.hobbies img[src="lazy lifter.png"] {
-  width: 150px; 
-  height: auto; 
-}
-    
-    
-.section.hobbies img[src="32GI jungle blues 1.png"] {
+.section#hobbies img[src="32GI jungle blues 1.png"] {
   width: 250px; 
   height: auto; 
+  padding-left: 10px;
 } 
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
