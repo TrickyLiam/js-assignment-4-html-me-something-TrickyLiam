@@ -1,77 +1,60 @@
-body {
-    background-color: #242323;
-    color: white;
+html {
+  box-sizing: border-box;
+  background-color: #121212;
+  color: white;
 }
 
-#home-title {
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+.card {
+  margin: auto;
   text-align: center;
+  padding: 10%;
 }
 
-#home-title .nav a{
-  list-style: none;
+.home-title {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
   display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #bb86fc;
+  border-radius: 15px;
   text-align: center;
-  text-decoration: none;
-  color: #bb86fc;
-  margin: 0px 20px 0px 20px;
-}
-#home-title .nav a:hover{
-  color: #03dac5;
+  width: 75%;
 }
 
-
-
-#part-1, #part-2, #part-3 {
-    height: 500px;
-    width: auto;
-    margin: 20px;
-    padding: 20px;
+.button:hover {
+  opacity: 50%;
 }
 
-#part-1{
-  text-align: left;
-  width: 700px;
-}
-
-#part-2 {
-  text-align: end;
-}
-
-#part-2 .container {
-  text-align: right;
-}
-
-#part-3 .powerlifting {
-  text-align: left;
-}
-  
-#part-3 .gaming {
-    text-align: right;
-}
-  
-#part-3 .misc {
-  text-align: left;
-} 
-
-#part-1 img[src="vybin logo.png"] {
-  width: 200px; 
-  height: auto; 
-}
-    
-    
-#part-2 img[src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"] {
-  width: 300px; 
-  height: auto;  
-}
-    
-    
-#part-3 img[src="lazy lifter.png"] {
-  width: 150px; 
-  height: auto; 
-}
-    
-    
-#part-3 img[src="32GI jungle blues 1.png"] {
+.section#hobbies img[src="32GI jungle blues 1.png"] {
   width: 250px; 
   height: auto; 
+  padding-left: 10px;
+} 
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }

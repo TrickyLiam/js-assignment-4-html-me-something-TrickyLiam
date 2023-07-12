@@ -7,29 +7,65 @@
     <title>Liam Carlson - Assignment 4</title>
   </head>
   <body>
-    <!-- change id's to classes (bigger picture/heirarchy) and id's more specific inside classes
-      create classes for left and right side div's since it's more vague to a portion of <html>
-        each section should have set width/height  -->
-    <div id="home-title">
-      <header>
-        <h1>I'm Liam, developer in learning, chicken guy, and powerlifter</h1>
+    <header>
+      <div class="home-title">
+        <h1>I'm Liam, developer in Learning, Chicken Guy, and Powerlifter</h1>
         <p>
-          This website is to showcase some of my goals and things I've done so
-          far with my life
+          This website is to showcase some of my goals and a snippet into my
+          life
         </p>
-      </header>
-      <nav class="nav">
-            <a href="#part-1">Programming</a>
-            <a href="#part-2">Chicken</a>
-            <a href="#part-3">Hobbies</a>
-          
-        
-      </nav>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            src="vybin logo big.png"
+            alt="Vybin Network Logo"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Programming</h2>
+            <p class="title">Goals and accomplishments</p>
+            <a href="#programming"><button class="button">Dive in</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"
+            alt="Chicken and Egg"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Chickens</h2>
+            <p class="title">What I do for a living</p>
+            <a href="#chickens"><button class="button">Dive in</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="lazy lifter.png"
+            alt="Lazy Lifter Logo"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Hobbies</h2>
+            <p class="title">What I do for fun</p>
+            <a href="#hobbies"><button class="button">Dive in</button></a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="part-1">
+    <div class="section" id="programming">
       <h2>Programming</h2>
-      <img src="vybin logo.png" alt="Vybin Network Logo" />
       <p>
         I've always been surrounded by friends in programming, but while it
         always interested me, I was worried I wouldn't be able to learn it, so I
@@ -54,13 +90,9 @@
       </ul>
     </div>
 
-    <div id="part-2">
+    <div class="section" id="chickens">
       <h2>Chicken</h2>
 
-      <img
-        src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"
-        alt="Chicken and Egg"
-      />
       <p>
         I handle chickens by profession, graduated from University of Missouri
       </p>
@@ -72,11 +104,10 @@
       </p>
     </div>
 
-    <div id="part-3">
+    <div class="section" id="hobbies">
       <h2>Hobbies</h2>
       <div class="powerlifting">
         <h3>Powerlifting</h3>
-        <img src="lazy lifter.png" alt="Lazy Lifter Logo" />
         <p>
           Different from Olympic weightlifting, powerlifting is 3 main lifts...
         </p>
