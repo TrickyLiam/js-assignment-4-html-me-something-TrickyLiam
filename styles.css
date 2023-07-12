@@ -7,6 +7,7 @@ html {
 .row {
   display: flex;
   justify-content: center;
+  margin-bottom: 10%;
 }
 
 .column {
@@ -28,6 +29,35 @@ html {
 
 .title {
   color: grey;
+}
+
+
+.section {
+width: 100%;
+}
+
+
+.section#programming {
+width: 50%;
+margin-bottom: 10%;
+}
+
+.section#chickens {
+width: 50%;
+margin-bottom: 10%;
+}
+
+.section#hobbies {
+width: 50%;
+margin-bottom:5%;
+}
+
+footer {
+  background-color: #bb86fc2a;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  width: 250px;
 }
 
 .button {
