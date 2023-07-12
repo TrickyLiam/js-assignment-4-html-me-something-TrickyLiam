@@ -1,13 +1,20 @@
 html {
   box-sizing: border-box;
-  background-color: #121212;
+  background-color: #242424;
   color: white;
+  font-family: Roboto-Medium, Helvetica, Arial, sans-serif;
 }
+
+/* body {
+  margin: 8px;
+} */
+
 
 .row {
   display: flex;
   justify-content: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .column {
@@ -22,9 +29,13 @@ html {
 }
 
 .home-title {
-  padding: 50px;
+  padding: 20px;
   text-align: center;
   color: white;
+}
+
+.home-title p{
+  color: grey;
 }
 
 .title {
@@ -33,23 +44,32 @@ html {
 
 
 .section {
-width: 100%;
+background-color: #1f1b2448;
+width: 75%;
+padding: 3%;
 }
 
 
 .section#programming {
-width: 50%;
 margin-bottom: 10%;
+border-radius: 0px 20px 20px 0px;
 }
 
 .section#chickens {
-width: 50%;
 margin-bottom: 10%;
+text-align: right;
+margin-left: auto;
+border-radius: 20px 0px 0px 20px;
 }
 
 .section#hobbies {
-width: 50%;
+width: 100%;
 margin-bottom:5%;
+}
+
+.section h3 {
+  text-decoration: underline;
+  margin-top: 3%;
 }
 
 footer {
@@ -57,7 +77,21 @@ footer {
   border-radius: 15px;
   text-align: center;
   margin: auto;
+  margin-top: 3%;
   width: 250px;
+  font-size: 12px;
+}
+
+article {
+  text-align: center;
+}
+
+article a {
+  color: #bb86fc;
+}
+
+article a:hover {
+  color: #bb86fc85;
 }
 
 .button {
@@ -76,13 +110,30 @@ footer {
   opacity: 50%;
 }
 
-.section#hobbies img[src="32GI jungle blues 1.png"] {
+#misc img[src="32GI jungle blues 1.png"] {
   width: 250px; 
   height: auto; 
-  padding-left: 10px;
+  padding-left: 3%;
+  object-fit: contain;
 } 
 
-@media screen and (max-width: 650px) {
+#misc img[src="lilly.jpg"] {
+  width: 250px;
+  height: auto;
+  padding-left: 10%;
+  object-fit: contain;
+}
+
+#misc img[src="maurice.JPG"] {
+  width: 250px;
+  height: auto;
+  padding-left: 10%;
+  object-fit: contain;
+}
+
+
+
+@media screen {
   .column {
     width: 100%;
     display: block;
