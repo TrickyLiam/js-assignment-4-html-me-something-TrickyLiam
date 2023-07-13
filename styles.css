@@ -1,9 +1,29 @@
+@media screen and (max-width 480px) {
+  .column {
+    width: 50%;
+  }
+  html{
+    font-size: 8px;
+  }
+}
+
+
 html {
   box-sizing: border-box;
   background-color: #242424;
   color: white;
   font-family: Roboto-Medium, Helvetica, Arial, sans-serif;
 }
+
+
+
+/* #home-title { for the assignment
+  color:red;
+} */
+
+/* .section p { for the assignment
+  color: green;
+} */
 
 /* body {
   margin: 8px;
@@ -63,8 +83,9 @@ border-radius: 20px 0px 0px 20px;
 }
 
 .section#hobbies {
-width: 100%;
+width: auto;
 margin-bottom:5%;
+word-wrap: break-word;
 }
 
 .section h3 {
@@ -131,11 +152,7 @@ article a:hover {
   object-fit: contain;
 }
 
-
-
-@media screen {
-  .column {
-    width: 100%;
-    display: block;
-  }
+.card img[src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/chick-egg-shutterstock_2083148980.jpg?itok=De3nvckp"]{
+  border-radius: 10px;
 }
+
